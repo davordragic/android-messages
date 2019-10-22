@@ -27,7 +27,7 @@ Next, download the required CSS and image assets from one of the releases here l
 Last, you'll need to run the `nativefier` command to build your package.
 
 ```
-nativefier --name "Android Messages" --platform "osx" --bounce --counter  --honest --hide-window-frame --disable-dev-tools --title-bar-style "hidden" --icon logo.png --inject electron.css "https://messages.google.com/web"
+nativefier --name "Android Messages" "https://messages.google.com/web" --single-instance
 ```
 
 > Note: Nativefier allows for `osx`, `mas`, `linux`, and `windows` platform types. You can specify this with the `--platform` flag.
