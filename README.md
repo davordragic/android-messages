@@ -27,8 +27,8 @@ Next, download the required CSS and image assets from one of the releases here l
 Last, you'll need to run the `nativefier` command to build your package.
 
 ```
-nativefier --name "Android Messages" "https://messages.google.com/web" --single-instance  -tray
+nativefier --name "Android Messages" "https://messages.google.com/web" --single-instance  --tray
 ```
 
-> Note: Nativefier allows for `osx`, `mas`, `linux`, and `windows` platform types. You can specify this with the `--platform` flag.
+> Note: Nativefier allows for `osx`, `mas`, `linux`, and `windows` platform types. You can specify this with the `--platform` flag. --tray for windows.
 
